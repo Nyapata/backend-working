@@ -7,7 +7,7 @@ const port = 3000;
 // Function to make the HTTP request
 const makeHttpRequest = async () => {
   try {
-    const respons = await axios.get('https://backendworking.onrender.com/');
+    const respons = await axios.get('https://backendworkingg.onrender.com/');
     console.log('Response:', respons.data, Date.now());
   } catch (error) {
     console.error('Error making HTTP request:', error.message);

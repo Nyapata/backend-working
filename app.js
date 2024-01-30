@@ -8,7 +8,7 @@ const port = 3000;
 const makeHttpRequest = async () => {
   try {
     const response = await axios.get('https://nyapataa.onrender.com/'); // Replace with your desired URL
-    const respons = await axios.get('https://backdata.onrender.com/'); // Replace with your desired URL
+    const respons = await axios.get('https://backdataa.onrender.com/'); // Replace with your desired URL
     console.log('Nyapata : ', response.data,"backend :",respons.data);
   } catch (error) {
     console.error('Error making HTTP request:', error.message);
