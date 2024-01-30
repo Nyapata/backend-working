@@ -5,7 +5,6 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-      "start": "nodemon index.js",
         "star" : "nodemon app.js",
         "sta" : "nodemon ap.js"
     },
