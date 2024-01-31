@@ -7,15 +7,15 @@ const port = 3000;
 // Function to make the HTTP request
 const makeHttpRequest = async () => {
   try {
-    const respons = await axios.get('https://backendworkingg.onrender.com/');
-    console.log('help running back', respons.data, Date.now());
+    const respons = await axios.get('https://backendworkingg.onrender.com/'); // Replace with your desired URL
+    console.log("backend :",respons.data);
   } catch (error) {
     console.error('Error making HTTP request:', error.message);
   }
 };
 
 // Set up the interval to make the HTTP request every 10 seconds (10000 milliseconds)
-const intervalId = setInterval(makeHttpRequest, 1000);
+const intervalId = setInterval(makeHttpRequest, 10000);
 
 // Express route for a simple test endpoint
 app.get('/', (req, res) => {
