@@ -5,8 +5,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "star" : "nodemon app.js",
-        "sta" : "nodemon ap.js"
+        "app" : "nodemon app.js",
+        "ap" : "nodemon ap.js"
     },
     "keywords": [],
     "author": "",
