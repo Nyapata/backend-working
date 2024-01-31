@@ -15,7 +15,7 @@ const makeHttpRequest = async () => {
 };
 
 // Set up the interval to make the HTTP request every 10 seconds (10000 milliseconds)
-const intervalId = setInterval(makeHttpRequest, 60000);
+const intervalId = setInterval(makeHttpRequest, 1000);
 
 // Express route for a simple test endpoint
 app.get('/', (req, res) => {
